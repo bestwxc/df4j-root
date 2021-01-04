@@ -34,6 +34,8 @@
         <mybatis-spring-boot-starter.version>2.1.4</mybatis-spring-boot-starter.version>
         <pagehelper-spring-boot-starter.version>1.3.0</pagehelper-spring-boot-starter.version>
         <mapper.version>4.1.5</mapper.version>
+
+        <git.properties.filename>git.properties</git.properties.filename>
     </properties>
 
     <dependencies>
@@ -246,7 +248,7 @@
                         <verbose>true</verbose>
                         <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
                         <generateGitPropertiesFile>true</generateGitPropertiesFile>
-                        <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
+                        <generateGitPropertiesFilename>${project.build.outputDirectory}/${git.properties.filename}</generateGitPropertiesFilename>
                     </configuration>
                 </plugin>
             </plugins>
