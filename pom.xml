@@ -15,7 +15,6 @@
 
     <properties>
         <!--框架基本信息配置-->
-        <df4j-root.version>2.0.0-SNAPSHOT</df4j-root.version>
         <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
         <spring-boot.mainClass>com.df4j.Application</spring-boot.mainClass>
 
